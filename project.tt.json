@@ -1,0 +1,13 @@
+{
+  "miniprogramRoot": "./",
+  "projectname": "silkworm-head-applets",
+  "description": "小蚕高级团长",
+  "appid": "touristappid",
+  "setting": {
+    "urlCheck": true,
+    "es6": false,
+    "postcss": false,
+    "minified": false
+  },
+  "compileType": "miniprogram"
+}
