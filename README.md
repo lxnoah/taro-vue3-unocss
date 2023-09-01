@@ -9,9 +9,8 @@ yarn install
 yarn dev:weapp
 ```
 
-```
 其他小程序启动方式请去Taro官方文档查询
-```
+
 
 # 已引入Unocss，可直接使用；
 
