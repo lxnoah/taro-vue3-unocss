@@ -3,7 +3,7 @@ import ComponentsPlugin from 'unplugin-vue-components/webpack'
 import NutUIResolver from '@nutui/nutui-taro/dist/resolver'
 
 const config = {
-  projectName: 'silkworm-head-applets',
+  projectName: 'taro-vue3-unocss',
   date: '2023-8-29',
   designWidth (input) {
     if (input?.file?.replace(/\\+/g, '/').indexOf('@nutui') > -1) {
@@ -29,7 +29,8 @@ const config = {
     }
   },
   framework: 'vue3',
-  compiler: { type: 'webpack5', prebundle: { enable: false }},//webpack5情况下解决编译报错问题 
+  //webpack5情况下prebundle默认打开，真尼玛坑！
+  compiler: { type: 'webpack5', prebundle: { enable: false }},
   cache: {
     enable: false // Webpack 持久化缓存配置，建议开启。默认配置请参考：https://docs.taro.zone/docs/config-detail#cache
   },

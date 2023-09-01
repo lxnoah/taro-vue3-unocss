@@ -13,7 +13,7 @@
       </view>
     </view>
     <nut-popup round v-model:visible="show">
-      <view class="cotent w-582px h-410px border-rd-24px bg-[#fff]  py-48px px-56px" hover-class="none"
+      <view class="cotent w-582 h-380 border-rd-24px bg-[#fff]  py-48px px-56px" hover-class="none"
         hover-stop-propagation="false">
         <h1 class="text-center font-size-34px font-500 mt-20px">title</h1>
         <view class="color-[#666666] py-48px font-size-28px" hover-class="none" hover-stop-propagation="false">
